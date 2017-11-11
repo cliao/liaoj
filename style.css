@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    /* Fix for webkit rendering */
+    
+    -webkit-text-size-adjust: 100%;
+}
+
+img{
+	width: 100%;
+}
+/*
+	TYPOGRAPHY
+*/
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    color: #4D4D4D;
+    font-weight: 400;
+}
+/*NAV AND NEWS LINKS*/
+
+h1 {
+    font-size: 14px;
+    line-height: 22px;
+    color: #0855a3;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -56px;
+    letter-spacing: .1em;
+    z-index: 1;
+}
+/*SIDEBAR LINKS*/
+
+h2 {
+    font-size: 12px;
+    line-height: 18px;
+    color: #0855a3;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: .1em;
+    z-index: 1;
+}
+h2 a {
+    text-decoration: none;
+    color: #0855a3;
+}
+/*LARGE INTRO TEXT*/
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+/*LARGE TITLE HEXAGON TEXT*/
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #0855a3;
+    text-align: center;
+    margin-top: -120px;
+    letter-spacing: .1em;
+    z-index: 1;
+    font-weight: 900;
+}
+h5 {} h6 {}
+/*LINKS*/
+
+a {
+    text-decoration: none;
+    font-family: 'Lato';
+    sans-serif;
+    color: #0855a3;
+}
+a:hover {
+    text-decoration: none;
+    opacity: .75;
+}
+li {
+    line-height: 12px;
+}
+a img {
+    border: 0;
+}
+/*
+	LOGO
+*/
+
+.logo {
+    position: fixed;
+    float: left;
+    left: 33px;
+    top: 88px;
+    z-index: -1;
+}
+/*
+	STRUCTURE
+*/
+
+.container {
+    height: 200px;
+    position: absolute;
+}
+.column {
+    width: 270px;
+    height: 500px;
+    position: absolute;
+    left: 335px;
+    display: inline-block;
+    top: 150px;
+}
+.column2 {
+    width: 270px;
+    height: 500px;
+    position: absolute;
+    left: 740px;
+    display: inline-block;
+    top: 150px;
+}
+
+.columnfull {
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    left: 340px;
+    display: inline-block;
+    top: 150px;
+}
+.news {
+    border: #0855a3 solid 3px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    overflow: auto;
+    width: 340px;
+    display: block;
+    padding: 20px;
+}
+/*
+	NAVIGATION
+*/
+
+#nav ul,
+#nav ul li {
+    float: left;
+    left: 250px;
+    top: 18px;
+    position: fixed;
+    z-index: 1;
+    padding-top: 5px;
+    height: 20px;
+}
+#nav ul li {
+    display: inline;
+    position: relative;
+}
+#nav ul li a,
+a:visited {
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: .1em;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+#sidebar {
+    float: left;
+    position: fixed;
+    top: 330px;
+    left: 120px;
+    width: 155px;
+    font-size: 12px;
+}
+/*
+	FOOTER
+*/
+
+.footer {
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+    width: 30px;
+    text-align: right;
+    white-space: nowrap;
+    cursor: url("../img/cursors/arrow-down.png"), s-resize;
+    -moz-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    font-size: 14px;
+    color: #4D4D4D;
+}
+hr {
+    border: solid 1px;
+    color: #4D4D4D;
+    margin: 10px 0 10px 0;
+    width: 155px;
+}
+/*
+	BORDER
+*/
+
+#top {
+    background: #0855a3;
+    position: fixed;
+    z-index: 1000;
+}
+#top {
+    left: 0;
+    right: 0;
+    height: 8px;
+}
+#top {
+    top: 0;
+}
+@media (max-width: 480px) {
+    @media
+    /* Fairly small screens including iphones */
+    
+    only screen and (max-width: 500px),
+    /* iPads */
+    
+    only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        #top,
+        #bottom,
+        #left,
+        #right {
+            display: none;
+        }
+    }
+
+
+.logo {
+    position: relative;
+}
+
+}
